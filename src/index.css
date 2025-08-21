@@ -1,0 +1,52 @@
+/* GENERAL RESET */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+body { background:#0f111a; color:#e5e7eb; line-height:1.6; }
+
+/* NAVBAR */
+.navbar { display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; background:#111827; box-shadow:0 0 10px rgba(0,255,255,0.2); }
+.logo { font-size:1.5rem; font-weight:bold; color:#00fff7; }
+.nav-links li { display:inline; margin-left:1rem; }
+.nav-links a { color:#e5e7eb; text-decoration:none; transition:0.3s; }
+.nav-links a:hover { color:#00fff7; text-shadow:0 0 10px #00fff7; }
+
+/* HERO */
+.hero { text-align:center; padding:3rem 2rem; background: linear-gradient(135deg,#111827,#1e293b); border-radius:12px; margin:1rem; }
+.hero h2 { font-size:2rem; color:#00fff7; margin-bottom:0.5rem; }
+.hero p { color:#cbd5e1; font-size:1.1rem; }
+
+/* MAIN SECTION */
+.main-section { display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; }
+
+/* CARD STYLE */
+.card { background:#1a1c2c; padding:1.5rem; border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.2); flex:1; min-width:300px; max-width:600px; }
+
+/* FORM */
+.form input, .form textarea { width:100%; margin-bottom:0.7rem; padding:0.7rem; border-radius:6px; border:1px solid #374151; background:#111827; color:#e5e7eb; }
+textarea { min-height:60px; }
+.btn { padding:0.6rem 1rem; border:none; border-radius:6px; cursor:pointer; transition:0.3s; font-weight:bold; }
+.add-btn { background:#00fff7; color:#111827; margin-top:0.5rem; }
+.add-btn:hover { box-shadow:0 0 10px #00fff7; }
+.remove-btn { background:#ef4444; color:white; margin-left:0.5rem; }
+.remove-btn:hover { box-shadow:0 0 10px #ef4444; }
+.generate-btn { background:#6366f1; color:white; width:100%; margin-top:1rem; }
+.generate-btn:hover { box-shadow:0 0 10px #6366f1; }
+
+/* PREVIEW */
+.preview h2.section-title { color:#00fff7; margin-bottom:1rem; }
+.preview-header h1 { color:#00fff7; font-size:1.8rem; }
+.preview-header h3 { color:#cbd5e1; font-size:1.2rem; margin-bottom:0.3rem; }
+.preview-section { margin-bottom:1rem; }
+.preview-card { background:#111827; padding:0.7rem; border-radius:8px; margin-bottom:0.5rem; box-shadow:0 0 8px rgba(0,255,255,0.2); }
+.skills-preview { display:flex; flex-wrap:wrap; gap:0.5rem; }
+.skill-chip { background:#00fff7; color:#111827; padding:0.3rem 0.7rem; border-radius:6px; }
+
+/* MARKDOWN */
+.markdown-preview { padding:0.5rem; border-left:3px solid #00fff7; background:#1a1c2c; color:#e5e7eb; margin-bottom:0.5rem; }
+
+/* FOOTER */
+.footer { text-align:center; padding:1.5rem; background:#111827; color:#9ca3af; margin-top:2rem; border-top:1px solid #374151; }
+
+/* PDF DOWNLOAD */
+.pdf-download-container { text-align:center; margin:2rem; }
+.download { background:#00fff7; color:#111827; padding:0.7rem 1.2rem; border-radius:8px; text-decoration:none; display:inline-block; }
+.download:hover { box-shadow:0 0 10px #00fff7; }
